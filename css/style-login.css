@@ -1,0 +1,130 @@
+body{
+    background: url("../img/greyzz.png") repeat;
+    color: #666666;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.42857;
+    height: 100%;
+}
+
+a{
+    color: #3AB29C;
+    text-decoration: none;
+}
+a:hover{
+    color: #666666;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 200%;
+    padding-bottom: 10px;
+}
+h3{
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.top-bar{
+    height: 75px;
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.logo-icon{
+	margin: 0 auto;
+    width: 183px;
+}
+
+.login-form{
+    margin: 50px 0px 50px 0px;
+}
+
+.input {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #bababa;
+    color: #212121;
+    height: 35px;
+    padding: 5px;
+    width: 100%;
+}
+
+.custom_btn {
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+    color: #ffffff;
+    height: 35px;
+    width: auto;
+    padding: 2px 30px;
+}
+
+.custom_btn:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.footer-list-1{
+	text-align: left;
+}
+.footer-list-1 ul {
+	margin: 0;
+    padding: 0;
+}
+
+.footer-list-1 ul li{
+	float: left;
+    list-style: outside none none;
+    padding-right: 20px;
+}
+
+
+.footer-right{
+	float: right;
+	text-align: right;
+}
+
+footer{
+    height: 60px;
+    padding: 20px 0;
+}
+
+.developer{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px -5px black;
+    display: none;
+    height: 500px;
+    left: 35%;
+    padding: 30px;
+    position: absolute;
+    top: 15%;
+    width: 400px;
+}
+
+.dev{
+    cursor: pointer;
+}
+
+.dname{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dicon{
+    margin: 0 auto;
+    width: 180px;
+    height: auto;
+}
+.dicon img{
+    height: auto;
+    width: 180px;
+}
+
+.cross img{
+    height: 25px;
+    width: auto;
+    float: right;
+    cursor: pointer;
+}
+
